@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 38003328bd33b83a1d97411aa0a85ee2445846f2
 // Get form elements for query sellectors
 
 const formElem = document.querySelector("#sizePicker");
@@ -54,4 +57,9 @@ function addColor(e) {
             event.style.backgroundColor = color;
         }
     }
+<<<<<<< HEAD
 }
+=======
+}
+
+>>>>>>> 38003328bd33b83a1d97411aa0a85ee2445846f2
