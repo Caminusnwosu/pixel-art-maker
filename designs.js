@@ -1,13 +1,9 @@
-<<<<<<< HEAD
-
-=======
->>>>>>> 38003328bd33b83a1d97411aa0a85ee2445846f2
 // Get form elements for query sellectors
 
 const formElem = document.querySelector("#sizePicker");
 const tableElem = document.querySelector("#pixelCanvas");
 
-//Get form elment for events listeners
+//Get form elment for events listeners 
 
 formElem.addEventListener("submit", formSubmit);
 tableElem.addEventListener("click", addColor);
@@ -18,7 +14,7 @@ function formSubmit(event) {
     event.preventDefault();
     const formData = new FormData(formElem);
 
-// Select Width and Height values
+    // Select Width and Height values
 
     const [width, height] = formData.entries();
     makeGrid(width[1], height[1]);
@@ -57,9 +53,5 @@ function addColor(e) {
             event.style.backgroundColor = color;
         }
     }
-<<<<<<< HEAD
-}
-=======
-}
-
->>>>>>> 38003328bd33b83a1d97411aa0a85ee2445846f2
+  }
+  
